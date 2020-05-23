@@ -159,6 +159,10 @@ a:hover {
   color: #824027;
 }
 
+.toggle-on {
+  background-color: #11485d !important;
+}
+
 .dark-mode {
   background-color: black;
   color: white;
