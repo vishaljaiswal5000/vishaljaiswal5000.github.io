@@ -1,130 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="Resume" content="" />
+    <meta name="Vishal Jaiswal" content="" />
 
-<head>
+    <title>Resume - Vishal Jaiswal</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <title>Resume - Start Bootstrap Theme</title>
+    <!-- Custom fonts for this template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+    />
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet" />
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Toggle button -->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  </head>
 
-</head>
+  <body id="page-top">
 
-<body id="page-top">
+    <label class="checkbox-inline ToggleButton">
+      <input type="checkbox" data-toggle="toggle"
+      onchange="ToggleDakMode()"
+      > Dark Mode
+    </label>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Vishal Jaiswal</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Vishal Jaiswal</span>
+        <span class="d-none d-lg-block">
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="img/profile.jpg"
+            alt=""
+          />
+        </span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education"
+              >Education</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Interests</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <div class="container-fluid p-0">
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Vishal
-          <span class="text-primary">Jaiswal</span>
-        </h1>
-        <div class="subheading mb-5">
-          <!-- 303 Deepshikha Apartment, 6 Vishnupuri Main A.B road, Indore, M.P ,India -->
-          <a href="mailto:vishaljaiswal5000@gmail.com">vishaljaiswal5000@gmail.com</a>
-        </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level
+    <div class="container-fluid p-0">
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="about"
+      >
+        <div class="w-100">
+          <h1 class="mb-0">
+            Vishal
+            <span class="text-primary">Jaiswal</span>
+          </h1>
+          <div class="subheading mb-5">
+            <!-- 303 Deepshikha Apartment, 6 Vishnupuri Main A.B road, Indore, M.P ,India -->
+            <a href="mailto:vishaljaiswal5000@gmail.com"
+              >vishaljaiswal5000@gmail.com</a
+            >
+          </div>
+          <!-- <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level
           overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall
-          value proposition.</p>
-        <div class="social-icons">
-          <a target="_blank" href="https://www.linkedin.com/in/vishal-jaiswal-aa53615b/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a target="_blank" href="https://github.com/vishaljaiswal5000">
-            <i class="fab fa-github"></i>
-          </a>
-          <!-- <a href="#">
+          value proposition.</p> -->
+          <p class="lead mb-3">
+            I have over 3 years of experience as a software engineer and have
+            worked at mid-level organization and as a freelancer. While I'm a
+            proficient full stack developer.
+          </p>
+
+          <p class="lead mb-3">
+            I love building things. While hard engineering problems are often
+            intrinsically fun to tackle. I'm most attracted to solving real
+            customer problems with a business justification.
+          </p>
+
+          <div class="lead mb-3">My expertise is :</div>
+          <ul class="fa-ul mb-3">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              building scalable backend services (API),
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              T-SQL and Dynamic query (database DBA)
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Angular (Javascript Front-End).
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Windows Desktop Application
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              AJAX (Asynchronous Communication)
+            </li>
+          </ul>
+
+          <div class="lead social-icons">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/vishal-jaiswal-aa53615b/"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <!-- <a target="_blank" href="https://github.com/vishaljaiswal5000">
+              <i class="fab fa-github"></i>
+            </a> -->
+            <!-- <a href="#">
             <i class="fab fa-twitter"></i>
           </a> -->
-          <!-- <a href="#">
+            <!-- <a href="#">
             <i class="fab fa-facebook-f"></i>
           </a> -->
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Engineer</h3>
-            <div class="subheading mb-4">Hvantage technologies</div>
-            <div class="subheading mb-3">Domain: Logistics</div>
-            <div class="subheading mb-3">Description</div>
-            <p>It is web-Application for Logistics industries for their day to day work. It helps clients to plans,
-              implements, and controls the efficient, effective, forward, and reverse flow and storage of goods,
-              services, and related information between the point of origin and the point of consumption in order to
-              meet customer's requirements.</p>
-            <div class="subheading mb-3">Responsibilities</div>
-            <ul>
-              <li>Developed core modules using C# 3 Layer design pattern.</li>
-              <li>Developed an Angular application for the Vehicle management module including Angular Material and Wijmo
-                controls.</li>
-              <li>Developed desktop edition for faster and user-friendly environment.</li>
-              <li>Created complex reports using RDLC and SQL.</li>
-              <li>Developed user defined functions and triggers to implement the requirements of the business.</li>
-              <li>Customer support and maintenance.</li>
-
-            </ul>
-
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2017 - Present</span>
           </div>
         </div>
+      </section>
 
-        <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="experience"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Experience</h2>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Software Engineer</h3>
+              <div class="subheading mb-4">Hvantage technologies</div>
+              <div class="subheading mb-3">Domain: Logistics</div>
+              <div class="subheading mb-3">Description</div>
+              <p>
+                It is web-Application for Logistics industries for their day to
+                day work. It helps clients to plans, implements, and controls
+                the efficient, effective, forward, and reverse flow and storage
+                of goods, services, and related information between the point of
+                origin and the point of consumption in order to meet customer's
+                requirements.
+              </p>
+              <div class="subheading mb-3">Responsibilities</div>
+              <ul>
+                <li>Developed core modules using C# 3 Layer design pattern.</li>
+                <li>
+                  Developed an Angular application for the Vehicle management
+                  module including Angular Material and Wijmo controls.
+                </li>
+                <li>
+                  Developed desktop edition for faster and user-friendly
+                  environment.
+                </li>
+                <li>Created complex reports using RDLC and SQL.</li>
+                <li>
+                  Developed user defined functions and triggers to implement the
+                  requirements of the business.
+                </li>
+                <li>Customer support and maintenance.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2017 - Present</span>
+            </div>
+          </div>
+
+          <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Web Developer</h3>
             <div class="subheading mb-3">Intelitec Solutions</div>
@@ -156,30 +252,35 @@
             <span class="text-primary">September 2008 - June 2010</span>
           </div>
         </div> -->
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">SANGHVI INSTITUTE OF MANAGEMENT AND SCIENCE – INDORE</h3>
-            <div class="subheading mb-3">Bachelor of Engineering</div>
-            <div>Computer Science</div>
-            <p>CGPA: 7.39</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2013 - June 2017</span>
-          </div>
         </div>
+      </section>
 
-        <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="education"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Education</h2>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">
+                SANGHVI INSTITUTE OF MANAGEMENT AND SCIENCE – INDORE
+              </h3>
+              <div class="subheading mb-3">Bachelor of Engineering</div>
+              <div>Computer Science</div>
+              <p>CGPA: 7.39</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2013 - June 2017</span>
+            </div>
+          </div>
+
+          <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">New South Wales Higher Secondary School</h3>
             <div class="subheading mb-3">12<sup>th</sup> Grade </div>
@@ -201,111 +302,138 @@
           </div>
         </div>
  -->
+        </div>
+      </section>
 
+      <hr class="m-0" />
 
-      </div>
-    </section>
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="skills"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Skills</h2>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-windows"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-android"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-git"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-                            <!-- <li class="list-inline-item">
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-js-square"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-angular"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-windows"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-android"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-npm"></i>
+            </li>
+            <!-- <li class="list-inline-item">
                               <i class="fab fa-node-js"></i>
                             </li> -->
-          <!-- <li class="list-inline-item">
+            <!-- <li class="list-inline-item">
                         <i class="fab fa-sass"></i>
                       </li>
                       <li class="list-inline-item">
                         <i class="fab fa-less"></i>
                       </li> -->
-        </ul>
+          </ul>
 
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
-      </div>
-    </section>
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum
+            </li>
+          </ul>
+        </div>
+      </section>
 
-    <hr class="m-0">
+      <hr class="m-0" />
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a Software Engineer, I enjoy most of my time being outdoors. I like to play soccer, cricket
-          and always ready for swimming. </p>
-        <p>In the winter, I am a sightseer and likely to explore thing alone like a lone ranger. During the warmer
-          months here in Indore, I like to do photography and doing frequent road trips.</p>
-        <p class="mb-0">When forced indoors, I follow several of sci-fi and fantasy genre movies and television shows, I
-          like to play video games (Single as well as Multiplayer) and I spend a large amount of my free time exploring
-          the latest technology advancements in the world.</p>
-      </div>
-    </section>
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="interests"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Interests</h2>
+          <p>
+            Apart from being a Software Engineer, I enjoy most of my time being
+            outdoors. I like to play soccer, cricket and always ready for
+            swimming.
+          </p>
+          <p>
+            In the winter, I am a sightseer and likely to explore thing alone
+            like a lone ranger. During the warmer months here in Indore, I like
+            to do photography and doing frequent road trips.
+          </p>
+          <p class="mb-0">
+            When forced indoors, I follow several of sci-fi and fantasy genre
+            movies and television shows, I like to play video games (Single as
+            well as Multiplayer) and I spend a large amount of my free time
+            exploring the latest technology advancements in the world.
+          </p>
+        </div>
+      </section>
 
-    <hr class="m-0">
+      <hr class="m-0" />
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Achieved Verified Certificate for “Angular” from Hong Kong University of Science and Technology.</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Earned badge for “Hadoop Foundation” from IBM</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Achieved Verified Certificate for “Big data” from UC San Diego.</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Achieved Verified Certificate for “Programming Mobile Applications for Android Handheld System” from
-            University of Maryland, College Park.</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Achieved Honor Code Certificate for “Java Programing” from Hong Kong University of Science and Technology.
-          </li>
-          <!-- <li>
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="awards"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Achieved Verified Certificate for “Angular” from Hong Kong
+              University of Science and Technology.
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Earned badge for “Hadoop Foundation” from IBM
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Achieved Verified Certificate for “Big data” from UC San Diego.
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Achieved Verified Certificate for “Programming Mobile Applications
+              for Android Handheld System” from University of Maryland, College
+              Park.
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Achieved Honor Code Certificate for “Java Programing” from Hong
+              Kong University of Science and Technology.
+            </li>
+            <!-- <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             1<sup>st</sup>
             Place - James Buchanan High School - Hackathon 2006</li>
@@ -313,22 +441,22 @@
             <i class="fa-li fa fa-trophy text-warning"></i>
             3<sup>rd</sup>
             Place - James Buchanan High School - Hackathon 2005</li> -->
-        </ul>
-      </div>
-    </section>
+          </ul>
+        </div>
+      </section>
+    </div>
 
-  </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
-</body>
-
+    <!-- toggle button -->
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+  </body>
 </html>
