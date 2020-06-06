@@ -168,7 +168,13 @@ a:hover {
   color: white;
 }
 
+
 .ToggleButton {
   float: right;
   margin: 3%;
+}
+
+#accomplishments>li{
+  display: inline-block;
+  margin: 2%;
 }
