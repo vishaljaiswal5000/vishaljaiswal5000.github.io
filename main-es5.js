@@ -2040,10 +2040,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.SkillIcons = [{
             icon: "devicon-angularjs-plain",
             toolTip: "Angular"
-          }, {
-            icon: "devicon-bitbucket-original",
-            toolTip: "BitBucket"
-          }, {
+          }, // { icon: "devicon-bitbucket-original", toolTip: "BitBucket" },
+          {
             icon: "devicon-bootstrap-plain-wordmark",
             toolTip: "Bootstrap"
           }, {

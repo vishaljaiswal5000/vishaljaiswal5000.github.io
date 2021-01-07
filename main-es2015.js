@@ -1197,7 +1197,7 @@ class SkillComponent {
         this.SkillIcons = new Array();
         this.SkillIcons = [
             { icon: "devicon-angularjs-plain", toolTip: "Angular" },
-            { icon: "devicon-bitbucket-original", toolTip: "BitBucket" },
+            // { icon: "devicon-bitbucket-original", toolTip: "BitBucket" },
             { icon: "devicon-bootstrap-plain-wordmark", toolTip: "Bootstrap" },
             { icon: "devicon-csharp-plain-wordmark", toolTip: "csharp" },
             { icon: "devicon-css3-plain-wordmark", toolTip: "CSS3" },
