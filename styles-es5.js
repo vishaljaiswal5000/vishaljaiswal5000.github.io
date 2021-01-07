@@ -235,13 +235,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\nhtml, body { height: 100%; scroll-behavior: smooth;}\n\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\n\ntd.mat-cell,\ntd.mat-footer-cell,\nth.mat-header-cell {\n  padding-top: 4px !important;\n  padding-bottom: 4px !important;\n  padding-left: 8px !important;\n  padding-right: 8px !important;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTs7QUFFOUUsYUFBYSxZQUFZLEVBQUUsdUJBQXVCLENBQUM7O0FBQ25ELE9BQU8sU0FBUyxFQUFFLGlEQUFpRCxFQUFFOztBQUVyRTs7O0VBR0UsMkJBQTJCO0VBQzNCLDhCQUE4QjtFQUM5Qiw0QkFBNEI7RUFDNUIsNkJBQTZCO0FBQy9CIiwiZmlsZSI6InNyYy9zdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuXG5odG1sLCBib2R5IHsgaGVpZ2h0OiAxMDAlOyBzY3JvbGwtYmVoYXZpb3I6IHNtb290aDt9XG5ib2R5IHsgbWFyZ2luOiAwOyBmb250LWZhbWlseTogUm9ib3RvLCBcIkhlbHZldGljYSBOZXVlXCIsIHNhbnMtc2VyaWY7IH1cblxudGQubWF0LWNlbGwsXG50ZC5tYXQtZm9vdGVyLWNlbGwsXG50aC5tYXQtaGVhZGVyLWNlbGwge1xuICBwYWRkaW5nLXRvcDogNHB4ICFpbXBvcnRhbnQ7XG4gIHBhZGRpbmctYm90dG9tOiA0cHggIWltcG9ydGFudDtcbiAgcGFkZGluZy1sZWZ0OiA4cHggIWltcG9ydGFudDtcbiAgcGFkZGluZy1yaWdodDogOHB4ICFpbXBvcnRhbnQ7XG59XG4iXX0= */", "", {
+    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n\r\nhtml, body { height: 100%; scroll-behavior: smooth;}\r\n\r\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\r\n\r\ntd.mat-cell,\r\ntd.mat-footer-cell,\r\nth.mat-header-cell {\r\n  padding-top: 4px !important;\r\n  padding-bottom: 4px !important;\r\n  padding-left: 8px !important;\r\n  padding-right: 8px !important;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTs7QUFFOUUsYUFBYSxZQUFZLEVBQUUsdUJBQXVCLENBQUM7O0FBQ25ELE9BQU8sU0FBUyxFQUFFLGlEQUFpRCxFQUFFOztBQUVyRTs7O0VBR0UsMkJBQTJCO0VBQzNCLDhCQUE4QjtFQUM5Qiw0QkFBNEI7RUFDNUIsNkJBQTZCO0FBQy9CIiwiZmlsZSI6InNyYy9zdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xyXG5cclxuaHRtbCwgYm9keSB7IGhlaWdodDogMTAwJTsgc2Nyb2xsLWJlaGF2aW9yOiBzbW9vdGg7fVxyXG5ib2R5IHsgbWFyZ2luOiAwOyBmb250LWZhbWlseTogUm9ib3RvLCBcIkhlbHZldGljYSBOZXVlXCIsIHNhbnMtc2VyaWY7IH1cclxuXHJcbnRkLm1hdC1jZWxsLFxyXG50ZC5tYXQtZm9vdGVyLWNlbGwsXHJcbnRoLm1hdC1oZWFkZXItY2VsbCB7XHJcbiAgcGFkZGluZy10b3A6IDRweCAhaW1wb3J0YW50O1xyXG4gIHBhZGRpbmctYm90dG9tOiA0cHggIWltcG9ydGFudDtcclxuICBwYWRkaW5nLWxlZnQ6IDhweCAhaW1wb3J0YW50O1xyXG4gIHBhZGRpbmctcmlnaHQ6IDhweCAhaW1wb3J0YW50O1xyXG59XHJcbiJdfQ== */", "", {
       "version": 3,
       "sources": ["src/styles.css", "styles.css"],
       "names": [],
-      "mappings": "AAAA,8EAA8E;;AAE9E,aAAa,YAAY,EAAE,uBAAuB,CAAC;;AACnD,OAAO,SAAS,EAAE,iDAAiD,EAAE;;AAErE;;;EAGE,2BAA2B;EAC3B,8BAA8B;EAC9B,4BAA4B;EAC5B,6BAA6B;AAC/B;;ACGA,46BAA46B",
+      "mappings": "AAAA,8EAA8E;;AAE9E,aAAa,YAAY,EAAE,uBAAuB,CAAC;;AACnD,OAAO,SAAS,EAAE,iDAAiD,EAAE;;AAErE;;;EAGE,2BAA2B;EAC3B,8BAA8B;EAC9B,4BAA4B;EAC5B,6BAA6B;AAC/B;;ACGA,g9BAAg9B",
       "file": "styles.css",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n\nhtml, body { height: 100%; scroll-behavior: smooth;}\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\n\ntd.mat-cell,\ntd.mat-footer-cell,\nth.mat-header-cell {\n  padding-top: 4px !important;\n  padding-bottom: 4px !important;\n  padding-left: 8px !important;\n  padding-right: 8px !important;\n}\n", "/* You can add global styles to this file, and also import other style files */\n\nhtml, body { height: 100%; scroll-behavior: smooth;}\n\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\n\ntd.mat-cell,\ntd.mat-footer-cell,\nth.mat-header-cell {\n  padding-top: 4px !important;\n  padding-bottom: 4px !important;\n  padding-left: 8px !important;\n  padding-right: 8px !important;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTs7QUFFOUUsYUFBYSxZQUFZLEVBQUUsdUJBQXVCLENBQUM7O0FBQ25ELE9BQU8sU0FBUyxFQUFFLGlEQUFpRCxFQUFFOztBQUVyRTs7O0VBR0UsMkJBQTJCO0VBQzNCLDhCQUE4QjtFQUM5Qiw0QkFBNEI7RUFDNUIsNkJBQTZCO0FBQy9CIiwiZmlsZSI6InNyYy9zdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuXG5odG1sLCBib2R5IHsgaGVpZ2h0OiAxMDAlOyBzY3JvbGwtYmVoYXZpb3I6IHNtb290aDt9XG5ib2R5IHsgbWFyZ2luOiAwOyBmb250LWZhbWlseTogUm9ib3RvLCBcIkhlbHZldGljYSBOZXVlXCIsIHNhbnMtc2VyaWY7IH1cblxudGQubWF0LWNlbGwsXG50ZC5tYXQtZm9vdGVyLWNlbGwsXG50aC5tYXQtaGVhZGVyLWNlbGwge1xuICBwYWRkaW5nLXRvcDogNHB4ICFpbXBvcnRhbnQ7XG4gIHBhZGRpbmctYm90dG9tOiA0cHggIWltcG9ydGFudDtcbiAgcGFkZGluZy1sZWZ0OiA4cHggIWltcG9ydGFudDtcbiAgcGFkZGluZy1yaWdodDogOHB4ICFpbXBvcnRhbnQ7XG59XG4iXX0= */"]
+      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\n\r\nhtml, body { height: 100%; scroll-behavior: smooth;}\r\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\r\n\r\ntd.mat-cell,\r\ntd.mat-footer-cell,\r\nth.mat-header-cell {\r\n  padding-top: 4px !important;\r\n  padding-bottom: 4px !important;\r\n  padding-left: 8px !important;\r\n  padding-right: 8px !important;\r\n}\r\n", "/* You can add global styles to this file, and also import other style files */\r\n\r\nhtml, body { height: 100%; scroll-behavior: smooth;}\r\n\r\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\r\n\r\ntd.mat-cell,\r\ntd.mat-footer-cell,\r\nth.mat-header-cell {\r\n  padding-top: 4px !important;\r\n  padding-bottom: 4px !important;\r\n  padding-left: 8px !important;\r\n  padding-right: 8px !important;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTs7QUFFOUUsYUFBYSxZQUFZLEVBQUUsdUJBQXVCLENBQUM7O0FBQ25ELE9BQU8sU0FBUyxFQUFFLGlEQUFpRCxFQUFFOztBQUVyRTs7O0VBR0UsMkJBQTJCO0VBQzNCLDhCQUE4QjtFQUM5Qiw0QkFBNEI7RUFDNUIsNkJBQTZCO0FBQy9CIiwiZmlsZSI6InNyYy9zdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xyXG5cclxuaHRtbCwgYm9keSB7IGhlaWdodDogMTAwJTsgc2Nyb2xsLWJlaGF2aW9yOiBzbW9vdGg7fVxyXG5ib2R5IHsgbWFyZ2luOiAwOyBmb250LWZhbWlseTogUm9ib3RvLCBcIkhlbHZldGljYSBOZXVlXCIsIHNhbnMtc2VyaWY7IH1cclxuXHJcbnRkLm1hdC1jZWxsLFxyXG50ZC5tYXQtZm9vdGVyLWNlbGwsXHJcbnRoLm1hdC1oZWFkZXItY2VsbCB7XHJcbiAgcGFkZGluZy10b3A6IDRweCAhaW1wb3J0YW50O1xyXG4gIHBhZGRpbmctYm90dG9tOiA0cHggIWltcG9ydGFudDtcclxuICBwYWRkaW5nLWxlZnQ6IDhweCAhaW1wb3J0YW50O1xyXG4gIHBhZGRpbmctcmlnaHQ6IDhweCAhaW1wb3J0YW50O1xyXG59XHJcbiJdfQ== */"]
     }]); // Exports
 
     module.exports = exports;
@@ -716,23 +716,23 @@
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! E:\Git Repo\Portfolio\node_modules\bootstrap\dist\css\bootstrap.min.css */
+    /*! D:\Code\vishaljaiswal5000-resume-angular\node_modules\bootstrap\dist\css\bootstrap.min.css */
     "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
     __webpack_require__(
-    /*! E:\Git Repo\Portfolio\node_modules\@fortawesome\fontawesome-free\css\all.min.css */
+    /*! D:\Code\vishaljaiswal5000-resume-angular\node_modules\@fortawesome\fontawesome-free\css\all.min.css */
     "./node_modules/@fortawesome/fontawesome-free/css/all.min.css");
 
     __webpack_require__(
-    /*! E:\Git Repo\Portfolio\node_modules\@angular\material\prebuilt-themes\deeppurple-amber.css */
+    /*! D:\Code\vishaljaiswal5000-resume-angular\node_modules\@angular\material\prebuilt-themes\deeppurple-amber.css */
     "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css");
 
     __webpack_require__(
-    /*! E:\Git Repo\Portfolio\src\css\resume.min.css */
+    /*! D:\Code\vishaljaiswal5000-resume-angular\src\css\resume.min.css */
     "./src/css/resume.min.css");
 
     module.exports = __webpack_require__(
-    /*! E:\Git Repo\Portfolio\src\styles.css */
+    /*! D:\Code\vishaljaiswal5000-resume-angular\src\styles.css */
     "./src/styles.css");
     /***/
   }
