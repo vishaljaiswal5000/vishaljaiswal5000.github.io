@@ -139,49 +139,43 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/material/slide-toggle */
-    "./node_modules/@angular/material/__ivy_ngcc__/esm2015/slide-toggle.js");
-    /* harmony import */
-
-
-    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ./components/about/about.component */
     "./src/app/components/about/about.component.ts");
     /* harmony import */
 
 
-    var _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./components/experience/experience.component */
     "./src/app/components/experience/experience.component.ts");
     /* harmony import */
 
 
-    var _components_project_project_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _components_project_project_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./components/project/project.component */
     "./src/app/components/project/project.component.ts");
     /* harmony import */
 
 
-    var _components_education_education_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _components_education_education_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./components/education/education.component */
     "./src/app/components/education/education.component.ts");
     /* harmony import */
 
 
-    var _components_skill_skill_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _components_skill_skill_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./components/skill/skill.component */
     "./src/app/components/skill/skill.component.ts");
     /* harmony import */
 
 
-    var _components_interest_interest_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _components_interest_interest_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./components/interest/interest.component */
     "./src/app/components/interest/interest.component.ts");
     /* harmony import */
 
 
-    var _components_achievement_achievement_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _components_achievement_achievement_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./components/achievement/achievement.component */
     "./src/app/components/achievement/achievement.component.ts");
 
@@ -212,118 +206,104 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: AppComponent,
       selectors: [["app-root"]],
-      decls: 55,
+      decls: 52,
       vars: 0,
-      consts: [[1, "ToggleButton", 3, "change"], ["id", "sideNav", 1, "navbar", "navbar-expand-lg", "navbar-dark", "bg-primary", "fixed-top"], ["href", "#page-top", 1, "navbar-brand", "js-scroll-trigger"], [1, "d-block", "d-lg-none"], [1, "d-none", "d-lg-block"], ["src", "../assets/img/profile.jpg", "alt", "", 1, "img-fluid", "img-profile", "rounded-circle", "mx-auto", "mb-2"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav"], [1, "nav-item"], ["href", "#about", 1, "nav-link", "js-scroll-trigger"], ["href", "#experience", 1, "nav-link", "js-scroll-trigger"], ["href", "#projects", 1, "nav-link", "js-scroll-trigger"], ["href", "#education", 1, "nav-link", "js-scroll-trigger"], ["href", "#skills", 1, "nav-link", "js-scroll-trigger"], ["href", "#interests", 1, "nav-link", "js-scroll-trigger"], ["href", "#awards", 1, "nav-link", "js-scroll-trigger"], [1, "container-fluid", "p-0"], ["id", "about", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"], [1, "m-0"], ["id", "experience", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "justify-content-center"], ["id", "projects", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "justify-content-center"], ["id", "education", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"], ["id", "skills", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"], ["id", "interests", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"], ["id", "awards", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"]],
+      consts: [["id", "sideNav", 1, "navbar", "navbar-expand-lg", "navbar-dark", "bg-primary", "fixed-top"], ["href", "#page-top", 1, "navbar-brand", "js-scroll-trigger"], [1, "d-block", "d-lg-none"], [1, "d-none", "d-lg-block"], ["src", "../assets/img/profile.jpg", "alt", "", 1, "img-fluid", "img-profile", "rounded-circle", "mx-auto", "mb-2"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav"], [1, "nav-item"], ["href", "#about", 1, "nav-link", "js-scroll-trigger"], ["href", "#experience", 1, "nav-link", "js-scroll-trigger"], ["href", "#projects", 1, "nav-link", "js-scroll-trigger"], ["href", "#education", 1, "nav-link", "js-scroll-trigger"], ["href", "#skills", 1, "nav-link", "js-scroll-trigger"], ["href", "#interests", 1, "nav-link", "js-scroll-trigger"], ["href", "#awards", 1, "nav-link", "js-scroll-trigger"], [1, "container-fluid", "p-0"], ["id", "about", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"], [1, "m-0"], ["id", "experience", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "justify-content-center"], ["id", "projects", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "justify-content-center"], ["id", "education", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"], ["id", "skills", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"], ["id", "interests", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"], ["id", "awards", 1, "resume-section", "p-3", "p-lg-5", "d-flex", "align-items-center"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-slide-toggle", 0);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function AppComponent_Template_mat_slide_toggle_change_1_listener() {
-            return ctx.ToggleDakMode();
-          });
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Dark Mode");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Vishal Jaiswal");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "span", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "nav", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "button", 5);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 2);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Vishal Jaiswal");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "span", 6);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "span", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "img", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "button", 6);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "span", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "About");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "ul", 9);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "About");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Experience");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 12);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Experience");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Projects");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 13);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Projects");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Education");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 14);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Education");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Skills");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 15);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Skills");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Interests");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Interests");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li", 10);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Awards");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Awards");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -335,66 +315,66 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "section", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "section", 18);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "app-about");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "app-about");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "hr", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "hr", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "section", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "app-experience");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "hr", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "section", 21);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "app-experience");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "app-project");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "hr", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "hr", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "section", 22);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "app-project");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "app-education");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "hr", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "hr", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "section", 23);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "app-education");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "app-skill");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "hr", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "hr", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "section", 24);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "app-skill");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "app-interest");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "hr", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "hr", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "section", 25);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "app-interest");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "hr", 20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "section", 26);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "app-achievement");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "app-achievement");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      directives: [_angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_2__["MatSlideToggle"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"], _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_4__["ExperienceComponent"], _components_project_project_component__WEBPACK_IMPORTED_MODULE_5__["ProjectComponent"], _components_education_education_component__WEBPACK_IMPORTED_MODULE_6__["EducationComponent"], _components_skill_skill_component__WEBPACK_IMPORTED_MODULE_7__["SkillComponent"], _components_interest_interest_component__WEBPACK_IMPORTED_MODULE_8__["InterestComponent"], _components_achievement_achievement_component__WEBPACK_IMPORTED_MODULE_9__["AchievementComponent"]],
+      directives: [_components_about_about_component__WEBPACK_IMPORTED_MODULE_2__["AboutComponent"], _components_experience_experience_component__WEBPACK_IMPORTED_MODULE_3__["ExperienceComponent"], _components_project_project_component__WEBPACK_IMPORTED_MODULE_4__["ProjectComponent"], _components_education_education_component__WEBPACK_IMPORTED_MODULE_5__["EducationComponent"], _components_skill_skill_component__WEBPACK_IMPORTED_MODULE_6__["SkillComponent"], _components_interest_interest_component__WEBPACK_IMPORTED_MODULE_7__["InterestComponent"], _components_achievement_achievement_component__WEBPACK_IMPORTED_MODULE_8__["AchievementComponent"]],
       styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"]
     });
     /*@__PURE__*/
