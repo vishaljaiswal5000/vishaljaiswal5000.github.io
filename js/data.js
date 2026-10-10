@@ -14,7 +14,7 @@ window.DATA = {
       duration: "May 2023 – Present",
       engagements: [
         {
-          name: "InvoCare — Guardian Plan (26 Microsites)",
+          name: "InvoCare - Guardian Plan (26 Microsites)",
           domain: "Funeral services & pre-paid plans · Lead Front-End",
           tech: ["AEM", "JavaScript", "SCSS", "Storybook"],
           description: "InvoCare is the largest funeral services provider in Australasia, and Guardian Plan is its pre-paid funeral offering. The programme launched the Guardian Plan site together with 26 microsites in a rapid-delivery model, where speed had to be balanced with brand consistency, accessibility and sensitive, empathetic content.",
@@ -44,7 +44,7 @@ window.DATA = {
           ],
         },
         {
-          name: "Yamaha Motor — Corporate Sites (AU & NZ)",
+          name: "Yamaha Motor - Corporate Sites (AU & NZ)",
           domain: "Automotive · Senior & Lead Front-End",
           tech: ["AEM", "JavaScript", "SCSS"],
           description: "The corporate web presence for Yamaha Motor Australia and New Zealand, covering brand, product-range and dealer-facing content across multiple vehicle categories. As Senior and Lead Front-End, I owned the front-end architecture and delivery for both regions.",
@@ -67,7 +67,7 @@ window.DATA = {
           points: [
             "Designed and developed front-end components with a focus on performance, accessibility and maintainability.",
             "Integrated the Adobe Target data layer to support personalisation, testing and analytics.",
-            "Delivered the \"Join Now Wizard\" on Adobe Adaptive Forms and GuideBridge — with no prior experience of the library and a tight deadline.",
+            "Delivered the \"Join Now Wizard\" on Adobe Adaptive Forms and GuideBridge - with no prior experience of the library and a tight deadline.",
             "Built multi-step form journeys with validation, state handling and clear error messaging suited to financial sign-up flows.",
             "Worked closely with AMP's design and digital technology teams, translating designs into production components.",
             "Applied modern web standards, including semantic HTML, responsive layouts and progressive enhancement, to the redesigned site.",
@@ -84,7 +84,7 @@ window.DATA = {
             "Adhered to ACS's design system while working closely with UI/UX designers to make sure every business requirement was met.",
             "Built components in Storybook for independent visualization, interaction and testing across states and breakpoints.",
             "Fixed critical issues in legacy components so they matched the new design standards and behaved consistently.",
-            "Developed a robust, scalable styling system for AEM templates, improving maintainability and reducing duplicated CSS.",
+            "Developed a scalable styling system for AEM templates, improving maintainability and reducing duplicated CSS.",
             "Improved accessibility and cross-browser behaviour while migrating legacy pages to the new templates.",
           ],
         },
@@ -204,7 +204,7 @@ window.DATA = {
       tagline: "Maze-chase arcade game",
       year: "2022",
       role: "Planner, level designer, developer",
-      description: "Navigate a maze eating pellets and dodging ghosts — or grab a power pellet to turn the tables.",
+      description: "Navigate a maze eating pellets and dodging ghosts - or grab a power pellet to turn the tables.",
       tech: ["Unity", "Sprites"],
     },
   ],

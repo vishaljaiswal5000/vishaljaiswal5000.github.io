@@ -49,7 +49,7 @@
     </article>`).join("");
 
   $("certList").innerHTML = D.certificates.map(([name, org, url, date]) =>
-    `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(name)}</a>` : esc(name)}<span>${esc(org)}${date ? ` · ${esc(date)}` : ""}</span></li>`).join("");
+    `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(name)}<span class="sr-only"> (opens in new tab)</span></a>` : esc(name)}<span>${esc(org)}${date ? ` · ${esc(date)}` : ""}</span></li>`).join("");
 
   $("interestList").innerHTML = tags(D.interests);
   $("year").textContent = new Date().getFullYear();
@@ -60,10 +60,12 @@
     document.body.classList.toggle("menu-open", open);
     btn.setAttribute("aria-expanded", open);
     btn.textContent = open ? "close" : "menu";
+    document.querySelectorAll("main, footer").forEach((el) => el.toggleAttribute("inert", open));
+    (open ? $("menu").querySelector("a") : btn).focus({ preventScroll: true });
   };
   btn.addEventListener("click", () => setMenu(!document.body.classList.contains("menu-open")));
   $("menu").addEventListener("click", (e) => e.target.tagName === "A" && setMenu(false));
-  document.addEventListener("keydown", (e) => e.key === "Escape" && setMenu(false));
+  document.addEventListener("keydown", (e) => e.key === "Escape" && document.body.classList.contains("menu-open") && setMenu(false));
 
   // scroll reveal (content stays visible if IntersectionObserver is missing)
   const items = document.querySelectorAll(".reveal");
