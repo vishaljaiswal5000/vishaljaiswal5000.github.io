@@ -192,6 +192,15 @@ window.DATA = {
 
   projects: [
     {
+      name: "Car Configurator",
+      tagline: "Real-time 3D car customiser",
+      year: "2026",
+      role: "Designer, developer",
+      description: "Customise paint, switch environments, toggle day/night and get a quote, all in the browser. Keyboard and screen-reader friendly, and built so new vehicles are easy to add.",
+      tech: ["React 19", "Three.js", "@react-three/fiber", "drei", "Zustand", "Sass", "Vite"],
+      url: "https://vishaljaiswal5000.github.io/car-configurator-ready/",
+    },
+    {
       name: "House of Enigma",
       tagline: "Indie spy-thriller game",
       year: "2023",

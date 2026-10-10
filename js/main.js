@@ -31,6 +31,7 @@
         <p>${esc(p.description)}</p>
         <em>${esc(p.role)}</em>
         <ul class="chips">${tags(p.tech)}</ul>
+        ${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">Live demo<span class="sr-only"> of ${esc(p.name)} (opens in new tab)</span></a>` : ""}
       </div>
     </article>`).join("");
 

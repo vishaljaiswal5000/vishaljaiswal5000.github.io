@@ -156,9 +156,17 @@ main:focus { outline: none; }
   margin-top: auto; display: grid; gap: .75rem; opacity: 0; transform: translateY(.75rem);
   transition: opacity .3s, transform .3s;
 }
-.proj:hover .proj-more, .proj:focus-visible .proj-more { opacity: 1; transform: none; }
+.proj:hover .proj-more, .proj:focus-within .proj-more { opacity: 1; transform: none; }
 .proj-more p { color: var(--mute); }
 .proj-more em { font-size: .85rem; }
+.proj-more > a {
+  justify-self: start; display: inline-flex; align-items: center; gap: .5rem; cursor: pointer;
+  background: var(--lime); color: #000; font-weight: 700; padding: .55rem 1.1rem; border-radius: 99px;
+  transition: transform .2s var(--ease), box-shadow .2s;
+}
+.proj-more > a::after { content: "\2197"; transition: transform .2s var(--ease); }
+.proj-more > a:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(214 255 0 / .3); }
+.proj-more > a:hover::after { transform: translate(2px, -2px); }
 @media (hover: none) { .proj-more { opacity: 1; transform: none; } }
 
 /* marquee */
