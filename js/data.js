@@ -201,6 +201,15 @@ window.DATA = {
       url: "https://vishaljaiswal5000.github.io/car-configurator-ready/",
     },
     {
+      name: "Perfect Shot",
+      tagline: "Aim-and-shoot combo arcade game",
+      year: "2026",
+      role: "Designer, developer",
+      description: "One tight loop of aim, shoot, score and combo, tuned for game feel: cannon recoil, muzzle flash, trails, camera shake, particle bursts and floating scores. Spawn validation, code-generated audio, saved settings and high scores, and a one-click editor tool that rebuilds every sprite, prefab and scene.",
+      tech: ["Unity 6", "C#", "Input System", "UGUI", "WebGL", "itch.io"],
+      url: "https://vishaljaiswal5000.itch.io/perfect-shot",
+    },
+    {
       name: "House of Enigma",
       tagline: "Indie spy-thriller game",
       year: "2023",
@@ -213,8 +222,9 @@ window.DATA = {
       tagline: "Maze-chase arcade game",
       year: "2022",
       role: "Planner, level designer, developer",
-      description: "Navigate a maze eating pellets and dodging ghosts - or grab a power pellet to turn the tables.",
-      tech: ["Unity", "Sprites"],
+      description: "Classic maze-chase arcade game: clear the maze of pellets while ghosts hunt you down, then grab a power pellet to turn the tables and hunt them back. Playable in the browser.",
+      tech: ["Unity", "Sprites", "itch.io"],
+      url: "https://vishaljaiswal5000.itch.io/ghost-hunter",
     },
   ],
 

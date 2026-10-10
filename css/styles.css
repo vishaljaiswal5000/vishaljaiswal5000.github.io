@@ -41,12 +41,12 @@ main:focus { outline: none; }
   display: flex; justify-content: space-between; align-items: center;
   padding: 1rem var(--pad); mix-blend-mode: difference;
 }
-.logo { font-weight: 900; font-size: 1.6rem; letter-spacing: -.04em; }
+.logo { font-weight: 900; font-size: 1.6rem; letter-spacing: -.04em; transition: color .3s; }
 .logo i, .foot-tag i { color: var(--lime); font-style: normal; }
 .menu-btn {
   font: 700 .95rem "Archivo", sans-serif; color: var(--fg); background: none;
   border: 1.5px solid currentColor; border-radius: 99px; padding: .4rem 1.1rem; cursor: pointer;
-  transition: background .25s, color .25s;
+  transition: background .25s, color .3s;
 }
 .menu-btn:hover { background: var(--fg); color: #000; }
 .menu {
@@ -147,27 +147,28 @@ main:focus { outline: none; }
 }
 .chips li:hover { background: var(--lime); border-color: var(--lime); color: #000; }
 
-/* projects (hover swaps tagline for details, like the helmet cards) */
-.proj { min-height: 20rem; display: flex; flex-direction: column; cursor: default; }
+/* projects */
+.proj { display: flex; flex-direction: column; cursor: default; }
 .proj h3 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 900; font-stretch: 75%; line-height: 1; letter-spacing: -.02em; margin-top: .5rem; }
 .proj-tag { color: var(--lime); font-weight: 600; margin-top: .5rem; }
 .card .proj-tag { display: block; }
 .proj-more {
-  margin-top: auto; display: grid; gap: .75rem; opacity: 0; transform: translateY(.75rem);
-  transition: opacity .3s, transform .3s;
+  margin-top: 1rem; flex: 1; display: flex; flex-direction: column; gap: .75rem;
 }
-.proj:hover .proj-more, .proj:focus-within .proj-more { opacity: 1; transform: none; }
 .proj-more p { color: var(--mute); }
 .proj-more em { font-size: .85rem; }
 .proj-more > a {
-  justify-self: start; display: inline-flex; align-items: center; gap: .5rem; cursor: pointer;
+  margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; gap: .5rem; cursor: pointer;
   background: var(--lime); color: #000; font-weight: 700; padding: .55rem 1.1rem; border-radius: 99px;
   transition: transform .2s var(--ease), box-shadow .2s;
 }
-.proj-more > a::after { content: "\2197"; transition: transform .2s var(--ease); }
-.proj-more > a:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(214 255 0 / .3); }
-.proj-more > a:hover::after { transform: translate(2px, -2px); }
-@media (hover: none) { .proj-more { opacity: 1; transform: none; } }
+.proj-more > a::after {
+  content: ""; width: 1em; height: 1em; background: currentColor; transition: transform .2s var(--ease);
+  --arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17 17 7M8 7h9v9'/%3E%3C/svg%3E");
+  -webkit-mask: var(--arrow) center / contain no-repeat; mask: var(--arrow) center / contain no-repeat;
+}
+.proj-more > a:hover, .proj-more > a:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(214 255 0 / .3); }
+.proj-more > a:hover::after, .proj-more > a:focus-visible::after { transform: translate(2px, -2px); }
 
 /* marquee */
 .marquee { margin-top: 6rem; overflow: hidden; border-block: 1px solid var(--line); padding: 1.1rem 0; }
@@ -202,7 +203,7 @@ main:focus { outline: none; }
 .foot small { color: #000; opacity: .65; }
 
 /* reveal */
-.js-reveal .reveal { opacity: 0; transform: translateY(2rem); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+.js-reveal .reveal { opacity: 0; transform: translateY(2rem); transition: opacity .7s var(--ease), transform .7s var(--ease), border-color .3s; }
 .js-reveal .reveal.in { opacity: 1; transform: none; }
 
 @media (max-width: 700px) {
