@@ -1,41 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="Resume" content="" />
-    <meta name="Vishal Jaiswal" content="" />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vishal Jaiswal | Senior Frontend Engineer</title>
+  <meta name="description" content="Vishal Jaiswal — Senior Frontend Engineer | AEM Certified | Magnolia Certified | Spring Boot, React, Angular, JavaScript and SCSS.">
+  <meta name="theme-color" content="#0b0b0b">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="bar">
+    <a class="logo" href="#top" aria-label="vj home">vj<i>.</i></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">menu</button>
+  </header>
 
-    <meta charset="utf-8" />
-    <title>Vishal Jaiswal Resume</title>
+  <nav id="menu" class="menu" aria-label="Main">
+    <a href="#top">home</a>
+    <a href="#work">work</a>
+    <a href="#projects">projects</a>
+    <a href="#skills">skills</a>
+    <a href="#education">education</a>
+    <a href="#contact">contact</a>
+  </nav>
 
-    <base href="/" />
+  <main id="top">
+    <section class="hero">
+      <p class="hero-sub">senior frontend engineer · aem certified · magnolia certified</p>
+      <h1 class="hero-name"><span>Vishal</span><span>Jaiswal</span></h1>
+      <a class="card now" href="#work">
+        <small>currently</small>
+        <b>Senior Consultant</b>
+        <span>Helium · Sydney · since 2023 →</span>
+      </a>
+      <img class="hero-photo" src="assets/profile-320.webp" srcset="assets/profile-320.webp 320w, assets/profile-640.webp 640w" sizes="min(max(7rem, 20vw), 17rem)" alt="Vishal Jaiswal" width="320" height="320" fetchpriority="high">
+    </section>
 
-    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico" /> -->
+    <section class="message reveal">
+      <p>With <b>9+ years</b> of experience across mid-size organisations and freelance work, I build <b>full-stack</b> products with <b>Spring Boot, React, Angular, JavaScript and SCSS</b> — <b>AEM</b> and <b>Magnolia</b> certified — turning real customer problems into software with a business case.</p>
+      <ul class="stats" id="stats"></ul>
+    </section>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
-      rel="stylesheet"
-    />
+    <section class="split reveal" aria-label="Quick links">
+      <a href="#work"><span>on the</span><b>job</b></a>
+      <a href="#projects"><span>off the</span><b>clock</b></a>
+    </section>
 
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <section id="work" class="block">
+      <h2 class="h reveal">work</h2>
+      <div id="experience"></div>
+    </section>
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+    <section id="projects" class="block">
+      <h2 class="h reveal">projects</h2>
+      <div class="grid" id="projectGrid"></div>
+    </section>
 
-    <link rel="stylesheet" href="devicon.css">
- 
+    <div class="marquee" aria-hidden="true"><div id="marquee"></div></div>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css">
+    <section id="skills" class="block">
+      <h2 class="h reveal">skills</h2>
+      <div class="skills" id="skillGrid"></div>
+    </section>
 
+    <section id="education" class="block">
+      <h2 class="h reveal">education</h2>
+      <div class="grid" id="eduGrid"></div>
+      <h3 class="sub reveal">certifications</h3>
+      <ul class="certs" id="certList"></ul>
+      <h3 class="sub reveal">off screen</h3>
+      <ul class="chips" id="interestList"></ul>
+    </section>
+  </main>
 
-  </head>
-  <body>
-    <app-root></app-root>
-  <script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="scripts.js" defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+  <footer id="contact" class="foot">
+    <p class="foot-tag">always<br>shipping<i>.</i></p>
+    <div class="foot-links">
+      <a href="mailto:vishaljaiswal5000@gmail.com">vishaljaiswal5000@gmail.com</a>
+      <a href="https://www.linkedin.com/in/vishal-jaiswal-aa53615b/" target="_blank" rel="noopener">linkedin</a>
+      <a href="https://github.com/vishaljaiswal5000" target="_blank" rel="noopener">github</a>
+    </div>
+    <small>© <span id="year"></span> Vishal Jaiswal · Syndey NSW, Australia</small>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>
